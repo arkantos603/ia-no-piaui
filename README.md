@@ -8,10 +8,10 @@ Painel em **Streamlit** para monitorar menções a **Inteligência Artificial no
 - **Processamento/Limpeza** de textos (remoção de HTML e normalização).
 - **Análise de Sentimento** por **regras** (stems, padrões, negação, intensificadores).
 - **Visualização**:
-  - **KPIs** (contagens e percentuais),
-  - **Gráfico de pizza** (cores fixas: verde/positivo, azul/neutro, vermelho/negativo),
-  - **Nuvem de palavras**,
-  - **Tabela interativa** (link clicável).
+   - **KPIs** (contagens e percentuais),
+   - **Gráfico de pizza** (cores fixas: verde/positivo, azul/neutro, vermelho/negativo),
+   - **Nuvem de palavras**,
+   - **Tabela interativa** (link clicável).
 - **Exportação**: **CSV** e **JSON** com os itens coletados e classificados.
 - **Ética/Transparência**: aviso no rodapé sobre limitações e uso de IA no desenvolvimento.
 
@@ -22,5 +22,13 @@ Painel em **Streamlit** para monitorar menções a **Inteligência Artificial no
 ## Instalação
 ```bash
 pip install -r requirements.txt
+```
 
-depois é só rodar streamlit run app.py
+## Execução
+```bash
+streamlit run app.py
+```
+
+## Acesso Online
+Você pode abrir a aplicação diretamente por este link:
+https://monitoramento-sia.streamlit.app/
