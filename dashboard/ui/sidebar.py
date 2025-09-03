@@ -6,7 +6,7 @@ def sidebar_params():
 
         n_consultas = st.slider("Número de consultas", 1, 10, 2,
                                 help="Quantas frases você quer somar na busca")
-        defaults = ["SIA Piauí", "Inteligência Artificial Piauí"]
+        defaults = ["Inteligência Artificial Piauí", "SIA Piauí"]
         termos = []
         for i in range(n_consultas):
             valor_default = defaults[i] if i < len(defaults) else ""
